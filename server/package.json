@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Node Express Server",
+  "main": "index.js",
+  "author": "Lior Elrom",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "start": "npx babel-node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "pg": "^7.9.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10"
+  }
+}

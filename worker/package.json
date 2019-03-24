@@ -1,0 +1,27 @@
+{
+  "name": "worker",
+  "version": "0.0.1",
+  "description": "Worker Application",
+  "main": "index.js",
+  "author": "Lior Elrom",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "start": "npx babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "redis": "^2.8.0"
+  }
+}
