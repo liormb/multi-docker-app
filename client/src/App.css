@@ -1,0 +1,38 @@
+html, body, h1, h2, h3, h4, h5, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.App-header {
+  height: 60px;
+  margin-bottom: 30px;
+  background-color: rgb(115, 95, 240);
+}
+
+.App-header-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: inherit;
+  margin: 0 auto;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body > * {
+  margin-top: 20px;
+}
+
+.App-links a {
+  margin-left: 20px;
+  color: white;
+}
